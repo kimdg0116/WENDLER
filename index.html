@@ -25,7 +25,7 @@
 <title>Wendler 5/3/1</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <style>
   :root{
     --ground:#EDEEF1;
@@ -91,7 +91,7 @@
     margin:0;
     background:var(--ground);
     color:var(--ink);
-    font-family:"IBM Plex Sans KR","Apple SD Gothic Neo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-family:"IBM Plex Sans","IBM Plex Sans KR","Apple SD Gothic Neo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
     font-size:15px;
     line-height:1.5;
     -webkit-text-size-adjust:100%;
@@ -114,7 +114,7 @@
     padding-bottom:10px;
     border-bottom:1px solid var(--line-soft);
   }
-  .brand{font-family:Oswald,"IBM Plex Sans KR",sans-serif;font-weight:700;font-size:21px;letter-spacing:.11em;line-height:1;min-width:0}
+  .brand{font-family:Oswald,"IBM Plex Sans","IBM Plex Sans KR",sans-serif;font-weight:700;font-size:21px;letter-spacing:.11em;line-height:1;min-width:0}
   .top-r{display:flex;align-items:center;gap:8px;flex:none}
   .icon-btn{
     border:1px solid var(--line);background:var(--surface);border-radius:999px;
@@ -357,7 +357,7 @@
   .hrow .d{font-size:11.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
   .hrow .w{font-size:11px;color:var(--ink-3)}
   .hrow .s{font-family:Oswald,sans-serif;font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}
-  .hrow .hsub{display:block;font-family:"IBM Plex Sans KR",sans-serif;font-size:11.5px;font-weight:500;color:var(--ink-3);margin-top:1px}
+  .hrow .hsub{display:block;font-family:"IBM Plex Sans","IBM Plex Sans KR",sans-serif;font-size:11.5px;font-weight:500;color:var(--ink-3);margin-top:1px}
   .hrow .e{font-family:Oswald,sans-serif;font-size:13.5px;font-weight:600;color:var(--ink-3);font-variant-numeric:tabular-nums}
   .hrow.best .e{color:var(--good)}
   .hrow.sup{background:var(--surface-2)}
@@ -393,7 +393,7 @@
   .tabs{display:flex;align-items:baseline;gap:13px;min-width:0}
   .tabs button{
     border:0;background:transparent;padding:0;color:var(--ink-3);
-    font-family:Oswald,"IBM Plex Sans KR",sans-serif;font-weight:700;font-size:21px;letter-spacing:.11em;line-height:1;
+    font-family:Oswald,"IBM Plex Sans","IBM Plex Sans KR",sans-serif;font-weight:700;font-size:21px;letter-spacing:.11em;line-height:1;
   }
   .tabs button[aria-pressed="true"]{color:var(--ink)}
   #tab-w531,#tab-max{display:flex;flex-direction:column;gap:14px}
@@ -599,7 +599,7 @@
 (function(){
   "use strict";
 
-  var APP_VERSION = "26.09.22-12";
+  var APP_VERSION = "26.09.22-13";
 
   /* 확대 막기 — 두 손가락 핀치, 더블탭 */
   (function(){
@@ -2197,7 +2197,7 @@
 </script>
 <script>
   (function(){
-    var CURRENT = "26.09.22-12";
+    var CURRENT = "26.09.22-13";
     var btn = document.getElementById("upd");
     var latest = null;
 
